@@ -2,6 +2,9 @@
 # phpstorm project files
 .idea
 
+# env files
+
+.env
 # htaccess
 htaccess
 
@@ -41,4 +44,10 @@ phpunit.phar
 /backend/web/index.php
 /backend/web/index-test.php
 /backend/web/robots.txt
+
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
 
